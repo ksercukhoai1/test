@@ -1,0 +1,18 @@
+ git init
+git clone https://github.com/ksercukhoai1/test.git
+touch b123.txt
+git add b123.txt
+git commit -m "Initilize"
+//git config --global user.email "you@example.com"
+// git config --global user.name "Your Name"
+git remote add origin https://github.com/ksercukhoai1/test.git
+
+ git remote -v
+//origin  https://github.com/ksercukhoai1/test.git (fetch)
+//origin  https://github.com/ksercukhoai1/test.git (push)
+git push -u origin master
+
+---------------------------------
+revert
+
+git revert HEAD
